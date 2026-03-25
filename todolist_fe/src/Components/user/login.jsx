@@ -13,8 +13,7 @@ const boxContainer ={
           bgcolor: 'background.paper',
         }
 
-
-const Login = (props) => {
+const Login = () => {
  const [email, setEmail] = useState("");
  const [password, setPassword] = useState("");
  const [error, setError] = useState("");
