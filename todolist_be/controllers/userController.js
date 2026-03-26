@@ -51,7 +51,7 @@ const login = async (req, res) => {
   if (data == null) {
     res
       .status(403)
-      .json({ message: "Usuario o contrase;a incorrecto", data: data });
+      .json({ message: "Usuario o contraseña incorrecta", data: data });
   }
   res.json(data);
 };
